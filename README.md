@@ -5,4 +5,4 @@ It's my first portfolio project.I have tried to add some little 3d models which 
 
 
 
-Preview can seen here: https://portfolio-usman3c.web.app
+Preview can be seen here: https://portfolio-usman3c.web.app
