@@ -20,8 +20,12 @@ const Hero = () => {
 
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm M. <br />
-              <span className="text-[#915EFF] pt-2 inline-block"> Usman.</span>
+              Hi, I'm M.
+              <br className="block lg:hidden" />
+              <span className="text-[#915EFF] lg:pt-0 pt-2 inline-block">
+                {" "}
+                Usman.
+              </span>
             </h1>
             <p className={`${styles.heroSubText}`}>
               I develop stunning full stack | <br /> MERN stack web
@@ -29,9 +33,9 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="mx-auto">
+        <div className="mx-auto block">
           <img
-            className="2xl:absolute 2xl:w-[20vw] 2xl:left-[30%] 2xl:top-[30%] w-[20rem] lg:w-96 animate-pulse md:w-[28rem] aspect-square"
+            className="2xl:absolute 2xl:w-[20vw] 2xl:left-[30%] 2xl:top-[30%] w-[20rem] lg:w-[30rem] animate-pulse md:w-[28rem] aspect-square"
             src={heroIllustrationSvg}
             alt="Illustration failed to load!"
           />

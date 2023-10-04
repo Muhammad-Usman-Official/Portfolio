@@ -13,7 +13,7 @@
     "@react-three/drei": "^9.57.2",
     "@react-three/fiber": "^8.12.0",
     "firebase": "^9.18.0",
-    "firebase-tools": "^12.6.1",
+    "firebase-tools": "^0.1.6",
     "framer-motion": "^10.2.4",
     "maath": "^0.5.2",
     "react": "^18.2.0",
