@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -6,6 +6,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import express from "./tech/express.png";
 import css from "./tech/css.jpg";
 import figma from "./tech/figma.jpg";
 import git from "./tech/git.jpg";
@@ -20,14 +21,22 @@ import typescript from "./tech/typescript.jpg";
 import threejs from "./tech/threejs.jpg";
 import psd from "./tech/psd.jpg";
 import bootstrap from "./tech/bootstrap.jpg";
+import upwork from "./tech/upwork.png";
+import mongoose from "./tech/mogoose.webp";
 
 import fiverr from "./company/fiverr.svg";
 import freelancer from "./company/freelancer.png";
 import amazon from "./amazon.png";
 import preview from "./preview.png";
+import coinbase from "./coinbase.png";
+
+import heroIllustrationSvg from "./undraw_programming_re_kg9v.svg";
 
 export {
+  coinbase,
   preview,
+  heroIllustrationSvg,
+  express,
   bootstrap,
   amazon,
   psd,
@@ -36,6 +45,7 @@ export {
   logo,
   backend,
   mobile,
+  upwork,
   web,
   github,
   menu,
@@ -52,4 +62,5 @@ export {
   tailwind,
   typescript,
   threejs,
+  mongoose,
 };

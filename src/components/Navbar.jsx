@@ -29,8 +29,8 @@ const Navbar = () => {
           />
           <p className="text-white text-[18px] cursor-pointer font-bold ">
             {" "}
-            <span className="sm:inline-block hidden">Muhammad</span>&nbsp;
-            <span className="font-[200]">&#124;</span>&nbsp;Usman
+            <span className="sm:inline-block hidden">Umanix</span>&nbsp;
+            &nbsp;Solutions
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

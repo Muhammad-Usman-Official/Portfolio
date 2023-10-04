@@ -1,13 +1,14 @@
+"use client";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { heroIllustrationSvg } from "../assets";
 
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] container mx-auto ${styles.paddingX} flex flex-col 2xl:flex-col lg:flex-row items-start gap-5`}
       >
         <div
           className={`flex flex-row items-start mx-auto ${styles.paddingX} gap-5`}
@@ -19,18 +20,24 @@ const Hero = () => {
 
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm M. <span className="text-[#915EFF]"> Usman.</span>
+              Hi, I'm M. <br />
+              <span className="text-[#915EFF] pt-2 inline-block"> Usman.</span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              I develop user interfaces and <br className="sm:block hidden" />
-              frontend of web applications.
+            <p className={`${styles.heroSubText}`}>
+              I develop stunning full stack | <br /> MERN stack web
+              applications.
             </p>
           </div>
         </div>
+        <div className="mx-auto">
+          <img
+            className="2xl:absolute 2xl:w-[20vw] 2xl:left-[30%] 2xl:top-[30%] w-[20rem] lg:w-96 animate-pulse md:w-[28rem] aspect-square"
+            src={heroIllustrationSvg}
+            alt="Illustration failed to load!"
+          />
+        </div>
       </div>
-      <ComputersCanvas />
-
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute bottom-10 sm:bottom-16 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

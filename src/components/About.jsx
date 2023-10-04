@@ -39,15 +39,16 @@ const About = () => {
         className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         variants={fadeIn("", "", 1, 1)}
       >
-        I'm a frontend web developer with a passion for creating clean,
-        responsive, and user-friendly websites and applications. With almost
-        1.5+ years of experience, I am skilled in a range of technologies
-        including HTML, CSS, JavaScript, Tailwind CSS, and React. My goal is to
-        deliver innovative solutions that exceed my clients' expectations by
-        staying ahead of the curve and incorporating the latest industry trends
-        and best practices into my work. I'm excited to continue pushing the
-        boundaries of what's possible in frontend development, and am always
-        looking to learn and expand my skill set.
+        I'm a full stack | MERN stack web developer with a passion for creating
+        clean, responsive, accessible, performant, and user-friendly websites
+        and applications. With almost 2+ years of experience, I am skilled in a
+        range of technologies including HTML, CSS, JavaScript, TypeScript,
+        Tailwind CSS, MongoDB, Express, React and Node. <br /> <br />
+        My goal is to deliver innovative solutions that exceed my clients'
+        expectations by staying ahead of the curve and incorporating the latest
+        industry trends and best practices into my work. I'm excited to continue
+        pushing the boundaries of what's possible in web development, and am
+        always looking to learn and expand my skill set.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

@@ -17,7 +17,10 @@ import {
   psd,
   amazon,
   threejs,
-  bootstrap,
+  express,
+  upwork,
+  coinbase,
+  mongoose,
 } from "../assets";
 
 export const navLinks = [
@@ -37,6 +40,10 @@ export const navLinks = [
 
 const services = [
   {
+    title: "MERN Stack | Full Stack Developer",
+    icon: backend,
+  },
+  {
     title: "Frontend Developer",
     icon: web,
   },
@@ -44,15 +51,6 @@ const services = [
     title: "ReactJS Developer",
     icon: reactjs,
   },
-  // TODO: ADD FOLLOWING WHEN COMPLETE
-  /* {
-        title: "Backend Developer",
-        icon: backend,
-    }, */
-  /*  {
-    title: "Content Creator",
-    icon: creator,
-  }, */
 ];
 
 const technologies = [
@@ -76,19 +74,35 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // CURRENTLY LEARNING REDUX TODO: ADD WHEN COMPLETE LEARNING REDUX
-  /* {
-    name: "Redux Toolkit",
-    icon: redux,
-  }, */
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
+    name: "Express.js",
+    icon: express,
+  },
+  {
+    name: "Node.js",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "mongoose",
+    icon: mongoose,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  // TODO: Uncommment following when fully learnt the technology
+  /* {
     name: "Three JS",
     icon: threejs,
-  },
+  }, */
   {
     name: "git",
     icon: git,
@@ -101,13 +115,23 @@ const technologies = [
     name: "psd",
     icon: psd,
   },
-  {
-    name: "bootstrap",
-    icon: bootstrap,
-  },
 ];
 
 const experiences = [
+  {
+    title: "MERN Stack | Full Stack Developer",
+    company_name: "upwork",
+    icon: upwork,
+    iconBg: "#383E56",
+    date: "Aug 2023 - present",
+    points: [
+      "Developing and maintaining web applications using MongoDb, ExpressJS, ReactJS, NodeJS, Tailwind CSS and other frontend related technologies.",
+      "Creating Web Apps that are accessible, performant, visually appealing, and W3C validaed.",
+      "Creating SEO freindly Websites.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Building user interfaces and ensuring good user experience.",
+    ],
+  },
   {
     title: "Frontend Web Developer",
     company_name: "fiverr",
@@ -138,7 +162,7 @@ const experiences = [
     company_name: "freelancer",
     icon: freelancer,
     iconBg: "#383E56",
-    date: "Dec 2022 - Present",
+    date: "Dec 2022 - May 2023",
     points: [
       "Developing and maintaining web applications using React.js and other frontend related technologies.",
       "Creating Web Apps that are accessible, performant, visually appealing, and W3C validaed.",
@@ -178,19 +202,19 @@ const testimonials = [
 const projects = [
   {
     name: "Amazon",
-    description:
-      "Web-based Online Store Amazon clone which has the capability to add, remove items from the bakset(cart) and sign up, sign in, checkout in real time.",
+    description: `This amazon clone lets users to add products to the cart which is also known as basket in the website, users can interact with the products like they can remove the products on the checkout page and the total price of the added products on the payment page.
+      Users can create their own account on this platform and then they can login to proceed with their shopping.`,
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -198,6 +222,40 @@ const projects = [
     source_code_link:
       "https://github.com/Muhammad-Usman-Official/Amazon-Clone.git",
     preview_code_link: "https://clone-challenge-651b0.web.app/",
+  },
+  {
+    name: "CoinBase",
+    description:
+      "Coinbase is a web application which allows users to post blogs related to crypto currencies and see them. Users can see previous news articles and 10 crypto currency rates and 24H. Users can see how crypto coin performed in last 24 hours and the latest price of the individual coin as well.",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: coinbase,
+    source_code_link: "https://github.com/Muhammad-Usman-Official/CoinBase.git",
+    preview_code_link: "https://coinbase-3c-gold.vercel.app/",
   },
   // TODO: CREATE NEW PROJECTS AND ADD BELOW
 ];

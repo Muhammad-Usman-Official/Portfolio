@@ -7,14 +7,15 @@ const Loader = () => {
       <span className="canvas-load"></span>
       <p
         style={{
-          fontSize: 14,
+          fontSize: 17,
           color: "#f1f1f1",
           fontWeight: 800,
           marginTop: 40,
           display: "flex",
+          minWidth: "300px",
         }}
       >
-        Module loading {progress.toFixed(2)}%
+        Loading {progress.toFixed(2)}%
       </p>
     </Html>
   );
