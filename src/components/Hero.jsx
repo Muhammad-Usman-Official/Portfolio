@@ -8,24 +8,20 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px] container mx-auto ${styles.paddingX} flex flex-col 2xl:flex-col lg:flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[80px] lg:top-[120px] container mx-auto ${styles.paddingX} flex flex-col 2xl:flex-col lg:flex-row items-start gap-x-5 overflow-y-hidden`}
       >
         <div
           className={`flex flex-row items-start mx-auto ${styles.paddingX} gap-5`}
         >
           <div className="flex flex-col justify-center items-center mt-5">
             <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
-            <div className="w-1 sm:h-80 h-40 violet-gradient" />
+            <div className="w-1 sm:h-60 md:h-40 h-52 violet-gradient" />
           </div>
 
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm M.
-              <br className="block lg:hidden" />
-              <span className="text-[#915EFF] lg:pt-0 pt-2 inline-block">
-                {" "}
-                Usman.
-              </span>
+              Hi, I'm M. <br className="block md:hidden" />
+              <span className="text-[#915EFF] inline-block">Usman.</span>
             </h1>
             <p className={`${styles.heroSubText}`}>
               I develop stunning full stack | <br /> MERN stack web

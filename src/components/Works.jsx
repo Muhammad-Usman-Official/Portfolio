@@ -40,16 +40,18 @@ const ProjectCard = ({
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
-            <div
-              onClick={() => window.open(preview_code_link, "_blank")}
-              className="bg-gradient-to-r from-black to-gray-800 bg-sky-900 ml-0.5 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={preview}
-                alt="Preview"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+            {preview_code_link ? (
+              <div
+                onClick={() => window.open(preview_code_link, "_blank")}
+                className="bg-gradient-to-r from-black to-gray-800 bg-sky-900 ml-0.5 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={preview}
+                  alt="Preview"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            ) : null}
           </div>
         </div>
 

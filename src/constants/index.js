@@ -255,7 +255,7 @@ const projects = [
     ],
     image: coinbase,
     source_code_link: "https://github.com/Muhammad-Usman-Official/CoinBase.git",
-    preview_code_link: "https://coinbase-3c-gold.vercel.app/",
+    preview_code_link: null,
   },
   // TODO: CREATE NEW PROJECTS AND ADD BELOW
 ];
