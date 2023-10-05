@@ -8,7 +8,7 @@
 
 ## My portfolio project:
 
-### This is my portfolio web application which showcases my Web development skills that how much am I capable and passionate about creating web applications that are accessible, performant and visually appealing.
+This is my portfolio web application which showcases my Web development skills that how much am I capable and passionate about creating web applications that are accessible, performant and visually appealing.
 
 ## The main goals of the project are:
 
@@ -29,19 +29,19 @@
 
 To install my portfolio locally on your machine, follow these steps:
 
-### 1. Clone the repository from github:
+1. Clone the repository from GitHub:
 
 ```
 git clone https://github.com/Muhammad-Usman-Official/Portfolio.git
 ```
 
-### 2. Navigate to the project:
+2. Navigate to the project:
 
 ```
 cd Portfolio
 ```
 
-### 3. Install the dependencies:
+3. Install the dependencies:
 
 ```
 npm install --force
