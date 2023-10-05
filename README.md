@@ -4,28 +4,28 @@
   <img src="./public/portfolio.png" alt="Portfolio preview image failed to load!" />
 </picture>
 
-## Description
+# Description
 
-My portfolio project:
+## My portfolio project:
 
-This is my portfolio web application which showcases my Web development skills that how much am I capable and passionate about creating web applications that are accessible, performant and visually appealing.
+### This is my portfolio web application which showcases my Web development skills that how much am I capable and passionate about creating web applications that are accessible, performant and visually appealing.
 
-The main goals of the project are:
+## The main goals of the project are:
 
-1. Test me skills.
+1. Test my skills.
 2. Upgrade my frontend development skills.
 3. Upgrade my `Three.js` skills with `React.js`.
 
-## Preview
+# Preview
 
-Preview link: https://portfolio-usman3c.web.app/
+### Preview link: https://portfolio-usman3c.web.app/
 
-## Prerequisites
+# Prerequisites
 
 - Node.js should be installed on your machine.
 - npm OR yarn should be available.
 
-## Installation
+# Installation
 
 To install my portfolio locally on your machine, follow these steps:
 
@@ -57,15 +57,15 @@ yarn
 
 To run this portfolio on localhost, follow these steps:
 
-### 1. Start the server
+1. Start the server
 
 ```
 npm run dev
 ```
 
-### 1. Open the browser and go to http://localhost:5173/
+2. Open the browser and go to http://localhost:5173/
 
-### 2. Enjoy!
+3. Enjoy!
 
 ## Lincense
 
