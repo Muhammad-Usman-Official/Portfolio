@@ -32,7 +32,10 @@ import coinbase from "./coinbase.png";
 
 import heroIllustrationSvg from "./undraw_programming_re_kg9v.svg";
 
+import linkedin from "./linkedin.png";
+
 export {
+  linkedin,
   coinbase,
   preview,
   heroIllustrationSvg,

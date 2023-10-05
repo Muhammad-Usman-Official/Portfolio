@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { heroIllustrationSvg } from "../assets";
+import { slideIn } from "../utils/motion";
 
 const Hero = () => {
   return (
@@ -10,7 +11,8 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[80px] lg:top-[120px] container mx-auto ${styles.paddingX} flex flex-col 2xl:flex-col lg:flex-row items-start gap-x-5 overflow-y-hidden`}
       >
-        <div
+        <motion.div
+          variants={slideIn("left", "tween")}
           className={`flex flex-row items-start mx-auto ${styles.paddingX} gap-5`}
         >
           <div className="flex flex-col justify-center items-center mt-5">
@@ -28,14 +30,17 @@ const Hero = () => {
               applications.
             </p>
           </div>
-        </div>
-        <div className="mx-auto block">
+        </motion.div>
+        <motion.div
+          variants={slideIn("right", "tween")}
+          className="mx-auto block"
+        >
           <img
             className="2xl:absolute 2xl:w-[20vw] 2xl:left-[30%] 2xl:top-[30%] w-[20rem] lg:w-[30rem] animate-pulse md:w-[28rem] aspect-square"
             src={heroIllustrationSvg}
             alt="Illustration failed to load!"
           />
-        </div>
+        </motion.div>
       </div>
       <div className="absolute bottom-10 sm:bottom-16 w-full flex justify-center items-center">
         <a href="#about">
