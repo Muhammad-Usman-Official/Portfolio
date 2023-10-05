@@ -76,7 +76,7 @@ const Contact = () => {
           <p className={styles.sectionSubText}>Get in touch</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
           <div className=" mt-6 text-start">
-            <h4 className="text-violet-300 border-l-4 pl-3">
+            <h4 className="text-violet-300 border-l-4 border-l-purple-500 pl-3">
               I am open for{" "}
               <span className="text-white">freelance projects </span>
               and{" "}
@@ -86,7 +86,7 @@ const Contact = () => {
                 developer roles
               </span>
             </h4>
-            <p className="mt-4 border-l-4 pl-3">
+            <p className="mt-4 border-l-4 border-l-green-500 pl-3">
               Contact me through{" "}
               <a
                 target="_blank"
