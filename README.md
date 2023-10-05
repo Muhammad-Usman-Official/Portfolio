@@ -67,12 +67,17 @@ npm run dev
 
 3. Enjoy!
 
-## Lincense
-
-This project uses the [MIT] license
-
 ## Contact
 
 If you want to contact me, you can reach me at Musmant11@gmail.com
 
 You can also follow me on https://www.linkedin.com/in/muhammad-usman-3c
+
+## 💖 Support
+
+<p>You can show your support by starring this project. ★</p>
+</a>
+
+## 📄 Lincense
+
+This project uses the [MIT](https://github.com/Muhammad-Usman-Official/Portfolio/blob/main/LICENSE) license
