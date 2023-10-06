@@ -98,7 +98,6 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  // TODO: Uncommment following when fully learnt the technology
   /* {
     name: "Three JS",
     icon: threejs,
