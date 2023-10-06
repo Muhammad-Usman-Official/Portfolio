@@ -26,8 +26,9 @@ const Hero = () => {
               <span className="text-[#915EFF] inline-block">Usman.</span>
             </h1>
             <p className={`${styles.heroSubText}`}>
-              I develop stunning full stack | <br /> MERN stack web
-              applications.
+              I develop stunning full stack{" "}
+              <span className="text-white">|</span>{" "}
+              <br className="sm:block hidden" /> MERN stack web applications.
             </p>
           </div>
         </motion.div>
@@ -42,7 +43,7 @@ const Hero = () => {
           />
         </motion.div>
       </div>
-      <div className="absolute bottom-10 sm:bottom-16 w-full flex justify-center items-center">
+      <div className="absolute bottom-32 sm:bottom-16 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
